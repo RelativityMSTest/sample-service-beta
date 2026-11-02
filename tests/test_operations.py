@@ -14,3 +14,7 @@ def test_subtract():
 def test_divide_by_zero():
     with pytest.raises(ZeroDivisionError):
         divide(1, 0)
+
+
+def test_lab_placeholder():
+    assert True
